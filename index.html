@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+  at line one we declared the document type this tells the browser the version
+  of the html file here it's html 5
+   worked because we had the emmet plugin -->
+<!--developers will usually give index.html name to the homepage -->
+<html lang="en" dir="ltr">
+
+<head>
+  <!--the head is the part of the html file that
+  holds info about the web page and it tells the browser how to handle
+  the page -->
+  <meta charset="utf-8">
+  <!-- give matadeta/associated data to the html doc
+    here we tell that the page is encoded using the utf-8 system-->
+  <!--Mojibake - char that are transformed happen when the browser try
+  to render the chars usin the wrong char set
+  utf8 is the stnadard encoding using html 5 and it include every sigle char in unicode it also include emojis
+  there are also meta attributes such as description author, keyword and so on
+  the mega tags tell the browser how to display the web page
+  it also give the search engine info about the content of the website, the search engine look for
+  certain meta tag  -->
+  <strong>
+    <title>Gil's Personal Site</title>
+  </strong>
+  <!-- tells the browser what is title of the data will
+    be seen on the tab on chrome-->
+  <!--<p>
+     is a paragraph tag  </p> -->
+</head>
+
+<body>
+  <!--the body of the page-->
+  <table cellspacing="20">
+    <tr>
+      <td> <img src="gil for personal site.jpg" alt="success"> </td>
+      <td>
+        <h1>Gil Rodnizki</h1>
+
+        <em>
+          <p>The <strong>best</strong> guy around</p>
+        </em>
+        <p>I was born in givatayim the forth child of Rodnizki family ten years
+          after yael
+        </p>
+      </td>
+    </tr>
+  </table>
+  <hr size=3>
+  <h3>Education</h3>
+  <ul>
+    <li><a href="https://cazenelson.schooly.co.il/">katanelson</a> my first school</li>
+    <!--a stants for anchor
+    pressing it with controll will open it in a new tab can be a url or file path -->
+    <li>ort</li>
+    <li>home stuff</li>
+    <li>king</li>
+  </ul>
+  <ol>
+    <li>java course</li>
+    <li>python course</li>
+    <li>pandas</li>
+    <li>html</li>
+  </ol>
+  <hr>
+  <h3>Some Random stuff</h3>
+  <table>
+    <thead>
+      <!-- we seperate the head body and foot because sometimes
+      we want it to function differently or look different ther are no table columns -->
+      <tr>
+        <th>Year</th>
+        <th>What happen?</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr>
+        <td>2000</td>
+        <td>A beast was born</td>
+      </tr>
+      <tr>
+        <td>2014</td>
+        <td>a beast started training</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <!--when we do alot of copy and paste it means we do something wrong
+     -->
+  <table>
+    <!-- nested table this why html is not good for editing layout-->
+    <thead>
+      <th>Skill</th>
+      <th>Abillity</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <table cellspacing="20">
+            <tr>
+              <td>Climbing</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>sport</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table cellspacing="20">
+            <tr>
+              <td>Social</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>will</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h3><a href="contact.html">contacts</a></h3>
+
+
+  <!--ul stands for unordered list so just points withou1 1. 2. 3. ... we can
+   nest order and unordered lists
+  image tag is a self closing tag
+  the src can be a url and also from a directory
+   -->
+  <!--  <p><i>The best guy around</i></p>  always use emphasize and not
+      i> because with html we care about structure and not look
+      bold is differnt than strong strong has meaning so use strong
+    google looks at alternate value in picture tag
+  thought it's possible to affect the style with html it's not
+recomended-->
+</body>
+
+</html>
+<!-- indent helps us to understand the html hirarchy!
+  this is a stnadart html boiler plate which means a template-->
+<!-- <hypetext is a text docs that can be linked tofether when we click on onoe it takes to another-->
+<!-- a form requiers more than just html -->
